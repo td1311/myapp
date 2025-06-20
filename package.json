@@ -5,8 +5,7 @@
 	"scripts": {
 		"start": "vite --port 3000 --open",
 		"dev": "vite --port 3000 --open",
-		"build": "vite build && cp -r dist docs",                   
-        "rebuild": "vite build && rm -R docs && cp -r dist docs",
+		"build": "vite build",
 		"serve": "vite preview --open",
 		"test": "vitest"
 	},

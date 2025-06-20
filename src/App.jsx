@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import './App.css';
+import imgUrl from '../assets/pngaaa.com-8384218.png'
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +41,7 @@ const App = () => {
             <div className="book-content">
               <img
                 className="book-content-image"
-                src="./assets/pngaaa.com-8384218.png"
+                src={imgUrl}
                 alt="book-content-image"
               />
             </div>
