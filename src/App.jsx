@@ -14,26 +14,13 @@ const App = () => {
 
     tapTimeout.current = setTimeout(() => {
       tapTimeout.current = null;
-    }, 400); // slightly more than the animation duration
+    }, 400);
   };
 
   return (
     <main>
       <div className="container">
         <div className="mobile-layout">
-          <div className="notification-header">
-            <div className="necessities">
-              <i className="fas fa-signal"></i>
-              <i className="fas fa-wifi"></i>
-              <i className="fas fa-battery-full"></i>
-            </div>
-          </div>
-          <div className="actions">
-            <i className="fas fa-chevron-left"></i>
-            <i className="fas fa-bookmark"></i>
-          </div>
-
-          {/* ✅ Unified event handler using pointerdown */}
           <div
             className="book-interactive"
             onPointerDown={handleTap}
