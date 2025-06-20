@@ -2,6 +2,9 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-user-select: none; /* Prevent selection */
+  -webkit-tap-highlight-color: transparent; /* Remove highlight */
+  user-select: none;
 }
 
 :root {
