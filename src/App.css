@@ -9,7 +9,7 @@
 
 :root {
   --mobile-width: 325px;
-  --mobile-height: 670px;
+  --mobile-height: 620px;
   --mobile-radius: 25px;
   --separator-height: 500px;
 
@@ -146,7 +146,7 @@
 
   .preface {
     height: 550px;
-    padding: 50px;
+    padding: 30px;
     transform: translateY(0);
     transition: var(--transition);
     will-change: transform;
