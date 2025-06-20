@@ -64,10 +64,10 @@ const App = () => {
                 <div className="author">Em đã khoẻ lên chưa, anh nhớ em nhiều lắm</div>
                 <div className="body">
                   <p>
-                    Em bé của anh, hôm nay em đỡ mệt chưa? Anh nhớ em nhiều lắm. Hôm nay giống như mọi ngày, anh cũng mong ngóng được về bên em, chỉ ước gì được ở bên để chăm sóc em lúc em mệt mỏi.
+                    Hôm nay giống như mọi ngày, anh cũng mong ngóng được về bên em, chỉ ước gì được ở bên để chăm sóc em lúc em mệt mỏi.
                   </p>
                   <p>
-                    Ngày anh về sẽ dành hết tất cả thời gian cho em nhé, chỉ có em và anh thôi. Nhớ em và thương em rất nhiều.
+                    Ngày anh về sẽ dành hết tất cả thời gian cho em nhé, chỉ có em và anh thôi. Và anh sẽ luôn nắm chặt tay em, không buông ra dù chỉ một giây. Vì Em là điều quý giá nhất mà anh có. Nhớ em và thương em rất nhiều.
                   </p>
                 </div>
               </div>
