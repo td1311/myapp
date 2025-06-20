@@ -42,7 +42,7 @@
 .mobile-layout {
   width: var(--mobile-width);
   height: var(--mobile-height);
-  margin: 30px 0;
+  margin: 20px 0;
   border-radius: var(--mobile-radius);
   perspective: 500px;
   overflow: hidden;
