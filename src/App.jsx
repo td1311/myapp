@@ -37,6 +37,13 @@ const App = () => {
             className="book-interactive"
             onPointerDown={handleTap}
           >
+            <div className="book-content">
+              <img
+                className="book-content-image"
+                src="./assets/pngaaa.com-8384218.png"
+                alt="book-content-image"
+              />
+            </div>
             <div className={`book-cover ${isOpen ? "open" : ""}`}>
               <img
                 className="book-top"
@@ -48,18 +55,18 @@ const App = () => {
             <div className={`preface ${isOpen ? "open" : ""}`}>
               <div className="content">
                 <div className="header">
-                  <div className="title">The Diary of a Young Girl</div>
+                  <div className="title">Gửi em bé</div>
                   <div className="icon">
                     <i className="fas fa-chevron-down"></i>
                   </div>
                 </div>
-                <div className="author">by Anne Frank</div>
+                <div className="author">Em đã khoẻ lên chưa, anh nhớ em nhiều lắm</div>
                 <div className="body">
                   <p>
-                    also known as The Diary of Anne Frank, is a book of the writings from the Dutch-language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands
+                    Em bé của anh, hôm nay em đỡ mệt chưa? Anh nhớ em nhiều lắm. Hôm nay giống như mọi ngày, anh cũng mong ngóng được về bên em, chỉ ước gì được ở bên để chăm sóc em lúc em mệt mỏi.
                   </p>
                   <p>
-                    Anne calls her diary "Kitty", so almost all of the letters are written to Kitty.
+                    Ngày anh về sẽ dành hết tất cả thời gian cho em nhé, chỉ có em và anh thôi. Nhớ em và thương em rất nhiều.
                   </p>
                 </div>
               </div>
